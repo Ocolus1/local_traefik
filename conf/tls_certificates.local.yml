@@ -1,0 +1,8 @@
+tls:
+  certificates:
+    - certFile: "/etc/traefik/certs/traefik.local.crt"
+      keyFile: "/etc/traefik/certs/traefik.local.key"
+    - certFile: "/etc/traefik/certs/django.local.crt"
+      keyFile: "/etc/traefik/certs/django.local.key"
+    - certFile: "/etc/traefik/certs/cypherme.local.crt"
+      keyFile: "/etc/traefik/certs/cypherme.local.key"
